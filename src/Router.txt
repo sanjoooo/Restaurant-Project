@@ -1,0 +1,122 @@
+Uncaught Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (react.development.js:1465:1)
+    at useContext (react.development.js:1473:1)
+    at useInRouterContext (index.tsx:387:1)
+    at useHref (index.tsx:358:1)
+    at LinkWithRef (index.tsx:263:1)
+    at renderWithHooks (react-dom.development.js:14985:1)
+    at updateForwardRef (react-dom.development.js:17044:1)
+    at beginWork (react-dom.development.js:19098:1)
+    at HTMLUnknownElement.callCallback (react-dom.development.js:3945:1)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:3994:1)
+resolveDispatcher @ react.development.js:1465
+useContext @ react.development.js:1473
+useInRouterContext @ index.tsx:387
+useHref @ index.tsx:358
+LinkWithRef @ index.tsx:263
+renderWithHooks @ react-dom.development.js:14985
+updateForwardRef @ react-dom.development.js:17044
+beginWork @ react-dom.development.js:19098
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+beginWork$1 @ react-dom.development.js:23964
+performUnitOfWork @ react-dom.development.js:22776
+workLoopSync @ react-dom.development.js:22707
+renderRootSync @ react-dom.development.js:22670
+performSyncWorkOnRoot @ react-dom.development.js:22293
+scheduleUpdateOnFiber @ react-dom.development.js:21881
+updateContainer @ react-dom.development.js:25482
+(anonymous) @ react-dom.development.js:26021
+unbatchedUpdates @ react-dom.development.js:22431
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:26020
+render @ react-dom.development.js:26103
+./src/index.js @ index.js:7
+options.factory @ react refresh:6
+__webpack_require__ @ bootstrap:24
+(anonymous) @ startup:7
+(anonymous) @ startup:7
+react-dom.development.js:20085 The above error occurred in the <Link> component:
+
+    at LinkWithRef (http://localhost:3000/static/js/bundle.js:45585:5)
+    at div
+    at div
+    at div
+    at Signup (http://localhost:3000/static/js/bundle.js:538:5)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ react-dom.development.js:20085
+update.callback @ react-dom.development.js:20118
+callCallback @ react-dom.development.js:12318
+commitUpdateQueue @ react-dom.development.js:12339
+commitLifeCycles @ react-dom.development.js:20736
+commitLayoutEffects @ react-dom.development.js:23426
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+commitRootImpl @ react-dom.development.js:23151
+unstable_runWithPriority @ scheduler.development.js:468
+runWithPriority$1 @ react-dom.development.js:11276
+commitRoot @ react-dom.development.js:22990
+performSyncWorkOnRoot @ react-dom.development.js:22329
+scheduleUpdateOnFiber @ react-dom.development.js:21881
+updateContainer @ react-dom.development.js:25482
+(anonymous) @ react-dom.development.js:26021
+unbatchedUpdates @ react-dom.development.js:22431
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:26020
+render @ react-dom.development.js:26103
+./src/index.js @ index.js:7
+options.factory @ react refresh:6
+__webpack_require__ @ bootstrap:24
+(anonymous) @ startup:7
+(anonymous) @ startup:7
+react.development.js:1465 Uncaught Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (react.development.js:1465:1)
+    at useContext (react.development.js:1473:1)
+    at useInRouterContext (index.tsx:387:1)
+    at useHref (index.tsx:358:1)
+    at LinkWithRef (index.tsx:263:1)
+    at renderWithHooks (react-dom.development.js:14985:1)
+    at updateForwardRef (react-dom.development.js:17044:1)
+    at beginWork (react-dom.development.js:19098:1)
+    at HTMLUnknownElement.callCallback (react-dom.development.js:3945:1)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:3994:1)
+resolveDispatcher @ react.development.js:1465
+useContext @ react.development.js:1473
+useInRouterContext @ index.tsx:387
+useHref @ index.tsx:358
+LinkWithRef @ index.tsx:263
+renderWithHooks @ react-dom.development.js:14985
+updateForwardRef @ react-dom.development.js:17044
+beginWork @ react-dom.development.js:19098
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+beginWork$1 @ react-dom.development.js:23964
+performUnitOfWork @ react-dom.development.js:22776
+workLoopSync @ react-dom.development.js:22707
+renderRootSync @ react-dom.development.js:22670
+performSyncWorkOnRoot @ react-dom.development.js:22293
+scheduleUpdateOnFiber @ react-dom.development.js:21881
+updateContainer @ react-dom.development.js:25482
+(anonymous) @ react-dom.development.js:26021
+unbatchedUpdates @ react-dom.development.js:22431
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:26020
+render @ react-dom.development.js:26103
+./src/index.js @ index.js:7
+options.factory @ react refresh:6
+__webpack_require__ @ bootstrap:24
+(anonymous) @ startup:7
+(anonymous) @ startup:7
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/content_scroll_mid_detection.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
